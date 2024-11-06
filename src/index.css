@@ -1,0 +1,20 @@
+.mainBody {
+	background-color: aliceblue;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+	.container {
+		margin: 10px;
+		padding: 4px;
+		border-radius: 8px;
+		border: 1px solid black;
+		width: 350px;
+		min-width: 300px;
+		max-width: 350px;
+
+		img {
+			width: 300px;
+		}
+	}
+}
